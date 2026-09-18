@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head><title>五、小题</title></head>
+<body>
+  <outline text="五、小题">
+    <outline text="五.1 同一套转译动作，更集中">
+      <outline text="五.1 照抄 小题里的照抄删修饰"/>
+      <outline text="五.1 问题 小题里的问题包装或翻转"/>
+      <outline text="五.1 删减 小题里的长列表删减和名字缩短"/>
+    </outline>
+    <outline text="五.2 和大作文不同的地方"/>
+    <outline text="五.3 小题多出来的四个动作">
+      <outline text="五.3 起标题 动作一：起小标题并判断它的来源和形式"/>
+      <outline text="五.3 切要点 动作二：自己切分要点和编号"/>
+      <outline text="五.3 配对 动作三：问题和对策配对"/>
+      <outline text="五.3 压缩 动作四：压缩强度高一档"/>
+    </outline>
+    <outline text="五.4 小标题">
+      <outline text="五.4 做法题 做法题的小标题：动宾式"/>
+      <outline text="五.4 问题题 问题题的小标题：名词加坏词"/>
+      <outline text="五.4 作用题 作用成效题的小标题：名词加判断、主体加作用"/>
+    </outline>
+    <outline text="五.5 另两个常见动作">
+      <outline text="五.5 个例 个例换成类名"/>
+      <outline text="五.5 反推 成绩反推动作"/>
+    </outline>
+    <outline text="五.6 对策题：把问题翻过来"/>
+    <outline text="五.7 小题和大作文的关系"/>
+  </outline>
+</body>
+</opml>
