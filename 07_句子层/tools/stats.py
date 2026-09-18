@@ -192,8 +192,193 @@ def main():
             if main_case(r.get('case')) == 'W':
                 print(f"| {sid} | {r.get('slot','')} | {r.get('text','')} |")
 
+    if any(os.path.exists(os.path.join(a.out, i, 'card.json')) for i in ids):
+        print()
+        card_stats(a.out, ids)
+
     if a.json:
         json.dump({'cases': dict(tot), 'slots': dict(slot)}, sys.stdout, ensure_ascii=False, indent=2)
+
+
+
+# ---------------------------------------------------------------- 槽位统计（思路卡）
+
+def short(s, n=28):
+    s = re.sub(r'\s+', '', str(s or ''))
+    return s[:n]
+
+CANON = {
+ '标题形式': ['两个动宾','比喻式','四字＋以A打造B','其他'],
+ '落点': ['近目标','上层目标'],
+ 'slot': ['引语','解题','家底','靶子','预告','观点','道理','数据','总括','证据','收束','意象','点名','落点','其他'],
+ '推法': ['缺口','职责帽','形势','换阶段','自己的目标','重要性','其他'],
+ '观点句来源': ['材料判断句','题干落点','材料里现成的一组标签','自造句框'],
+ '道理句': ['抄','改','造','无'],
+ '收束类型': ['补短板才能','正……','抄材料末句','比喻','让……','回到B','无'],
+ '意象': ['抄材料','自造','无'],
+ '点名': ['配角色词','不配词','无'],
+}
+
+def canon(val, kind):
+    """把带括号说明、带斜杠并列的取值归回口径表里的标准值；归不上的返回 '其他(未归类)'。"""
+    raw = re.sub(r'\s+', '', str(val or ''))
+    raw = re.split(r'[（(]', raw)[0]          # 砍掉括号里的说明
+    outs = []
+    for part in re.split(r'[／/、]', raw):
+        part = part.strip()
+        if not part:
+            continue
+        hit = None
+        for c in CANON.get(kind, []):
+            if part == c or part.startswith(c) or c.startswith(part):
+                hit = c
+                break
+        outs.append(hit or ('其他(未归类):' + part[:12]))
+    return outs or ['无']
+
+def canon1(val, kind):
+    return canon(val, kind)[0]
+
+
+def card_stats(out_dir, ids):
+    """从 card.json 汇出槽位统计（汇总.md 第 4 节）。"""
+    import os
+    cards = {}
+
+    for sid in ids:
+        p = os.path.join(out_dir, sid, 'card.json')
+        if os.path.exists(p):
+            cards[sid] = json.load(open(p, encoding='utf-8'))
+
+    by_genre = defaultdict(list)
+    for sid, c in cards.items():
+        by_genre[c.get('genre', '?')].append(sid)
+
+    print('# 槽位统计（来自十二张思路卡）\n')
+    print('体裁分布：' + '；'.join(f'{g} {len(v)} 篇（{"、".join(v)}）' for g, v in by_genre.items()))
+
+    print('\n## 标题')
+    print('| 样本 | 体裁 | 形式 | 落点 | 原文 |'); print('|---|---|---|---|---|')
+    for sid, c in cards.items():
+        t = c.get('标题', {}) or {}
+        print(f"| {sid} | {c.get('genre','')} | {short(t.get('形式'),40)} | {t.get('落点','')} | {t.get('原文','')} |")
+    f = Counter(canon1((c.get('标题') or {}).get('形式'), '标题形式') for c in cards.values())
+    print('\n形式计数：' + '；'.join(f'{k} {v}' for k, v in f.most_common()))
+    d = Counter(canon1((c.get('标题') or {}).get('落点'), '落点') for c in cards.values())
+    print('落点计数：' + '；'.join(f'{k} {v}' for k, v in d.most_common()))
+
+    print('\n## 开头：slot 出现比例与顺序')
+    print('| 样本 | 体裁 | slot 顺序 | 句数 |'); print('|---|---|---|---|')
+    slotc = Counter(); orders = Counter()
+    for sid, c in cards.items():
+        ss = ['／'.join(canon(s.get('slot'), 'slot')) for s in ((c.get('开头') or {}).get('句子') or [])]
+        for s in {x for s0 in ss for x in s0.split('／')}:
+            slotc[s] += 1
+        orders['→'.join(ss)] += 1
+        print(f"| {sid} | {c.get('genre','')} | {'→'.join(ss)} | {len(ss)} |")
+    n = len(cards) or 1
+    print('\n| 开头 slot | 出现篇数 | 比例 |'); print('|---|---|---|')
+    for k, v in slotc.most_common():
+        print(f'| {k} | {v} | {v/n:.0%} |')
+
+    print('\n## 开头：推法')
+    tui = Counter(); 
+    print('| 样本 | 推法 |'); print('|---|---|')
+    for sid, c in cards.items():
+        ts = [canon1(t.get('类型'), '推法') for t in ((c.get('开头') or {}).get('推法') or [])]
+        for t in set(ts):
+            tui[t] += 1
+        print(f"| {sid} | {'、'.join(ts)} |")
+    print('\n| 推法 | 出现篇数 | 比例 |'); print('|---|---|---|')
+    for k, v in tui.most_common():
+        print(f'| {k} | {v} | {v/n:.0%} |')
+
+    print('\n## 观点句来源')
+    src = Counter(); src_g = defaultdict(Counter)
+    for sid, c in cards.items():
+        for p in c.get('段落') or []:
+            k = canon1(p.get('观点句来源'), '观点句来源')
+            src[k] += 1; src_g[c.get('genre','')][k] += 1
+    print('| 来源 | 分论点数 | 比例 |'); print('|---|---|---|')
+    tot = sum(src.values()) or 1
+    for k, v in src.most_common():
+        print(f'| {k} | {v} | {v/tot:.0%} |')
+    for g, cc in src_g.items():
+        print(f"\n{g}：" + '；'.join(f'{k} {v}' for k, v in cc.most_common()))
+
+    print('\n## 中间段：句数、句长、证据、数字、道理句、收束')
+    print('| 样本 | 体裁 | 段数 | 每段句数 | 句长范围 | 证据个数 | 数字个数 | 材料外例子 | 道理句 | 收束类型 |')
+    print('|---|---|---|---|---|---|---|---|---|---|')
+    dao = Counter(); shou = Counter(); allsent = []; allev = []; allnum = []; allw = 0
+    for sid, c in cards.items():
+        ms = c.get('中间段') or []
+        sent = [m.get('句数', 0) for m in ms]
+        lens = [x for m in ms for x in (m.get('句长') or [])]
+        ev = [m.get('证据个数', 0) for m in ms]
+        nu = [m.get('数字个数', 0) for m in ms]
+        w = sum(m.get('材料外例子个数', 0) for m in ms)
+        allsent += sent; allev += ev; allnum += nu; allw += w
+        for m in ms:
+            dao[canon1(m.get('道理句'), '道理句')] += 1
+            shou[canon1(m.get('收束类型'), '收束类型')] += 1
+        print(f"| {sid} | {c.get('genre','')} | {len(ms)} | {'/'.join(map(str,sent))} | "
+              f"{min(lens) if lens else 0}–{max(lens) if lens else 0} | {'/'.join(map(str,ev))} | "
+              f"{'/'.join(map(str,nu))} | {w} | "
+              f"{'/'.join(canon1(m.get('道理句'),'道理句') for m in ms)} | {'/'.join(canon1(m.get('收束类型'),'收束类型') for m in ms)} |")
+    if allsent:
+        print(f'\n中间段合计 {len(allsent)} 段：句数 {min(allsent)}–{max(allsent)}（均 {sum(allsent)/len(allsent):.1f}）；'
+              f'证据 {min(allev)}–{max(allev)}（均 {sum(allev)/len(allev):.1f}）；'
+              f'数字 {min(allnum)}–{max(allnum)}（均 {sum(allnum)/len(allnum):.1f}）；材料外例子共 {allw} 个')
+    print('\n| 道理句 | 段数 | 比例 |'); print('|---|---|---|')
+    t2 = sum(dao.values()) or 1
+    for k, v in dao.most_common():
+        print(f'| {k} | {v} | {v/t2:.0%} |')
+    print('\n| 收束类型 | 段数 |'); print('|---|---|')
+    for k, v in shou.most_common():
+        print(f'| {k} | {v} |')
+
+    print('\n## 结尾')
+    print('| 样本 | 体裁 | 句数 | 意象 | 说大一圈 | 点名 | 落点词 |'); print('|---|---|---|---|---|---|---|')
+    yx = Counter(); dm = Counter(); ld = Counter(); shuo = 0
+    for sid, c in cards.items():
+        e = c.get('结尾') or {}
+        yx[canon1(e.get('意象'), '意象')] += 1; dm[canon1(e.get('点名'), '点名')] += 1
+        ld[short(e.get('落点词'), 20)] += 1
+        if str(e.get('说大一圈') or '').strip():
+            shuo += 1
+        print(f"| {sid} | {c.get('genre','')} | {e.get('句数','')} | {canon1(e.get('意象'),'意象')} | "
+              f"{short(e.get('说大一圈'),24)} | {canon1(e.get('点名'),'点名')} | {short(e.get('落点词'),22)} |")
+    print(f'\n意象：' + '；'.join(f'{k} {v}' for k, v in yx.most_common()))
+    print(f'点名：' + '；'.join(f'{k} {v}' for k, v in dm.most_common()))
+    print(f'说大一圈：{shuo}/{n} 篇填了')
+    print('落点词：' + '；'.join(f'{k} {v}' for k, v in ld.most_common()))
+
+    print('\n## 问题的写法')
+    print('| 样本 | 条数 | 主语是广东 | 定语 | 谓语 |'); print('|---|---|---|---|---|')
+    zt = Counter(); dy = Counter()
+    for sid, c in cards.items():
+        ps = c.get('问题的写法') or []
+        a = sum(1 for p in ps if p.get('主语是不是广东'))
+        d1 = sum(1 for p in ps if '定语' in str(p.get('缺点做定语还是谓语', '')))
+        d2 = sum(1 for p in ps if '谓语' in str(p.get('缺点做定语还是谓语', '')))
+        zt['是' if a else '否'] += 1
+        dy['定语'] += d1; dy['谓语'] += d2
+        print(f'| {sid} | {len(ps)} | {a} | {d1} | {d2} |')
+    print(f"\n全部问题句：定语 {dy['定语']} 条，谓语 {dy['谓语']} 条")
+
+    print('\n## 材料露脸')
+    print('| 样本 | 用到 | 没用到 | 完整度 |'); print('|---|---|---|---|')
+    for sid, c in cards.items():
+        m = c.get('材料露脸') or {}
+        u = m.get('用到') or []; nu2 = m.get('没用到') or []
+        tt = len(u) + len(nu2)
+        print(f"| {sid} | {len(u)}（{'、'.join(u)}） | {len(nu2)}（{'、'.join(nu2)}） | {len(u)}/{tt} = {len(u)/tt:.0%} |" if tt else f'| {sid} | | | |')
+
+    print('\n## 小题要点进大作文')
+    print('| 样本 | 进了大作文的要点数 |'); print('|---|---|')
+    for sid, c in cards.items():
+        print(f"| {sid} | {len(c.get('小题与大作文') or [])} |")
+
 
 if __name__ == '__main__':
     main()
