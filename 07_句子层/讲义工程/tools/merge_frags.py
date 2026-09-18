@@ -22,6 +22,19 @@ DATA = os.path.normpath(os.path.join(HERE, '..', 'data'))
 FRAG = os.path.join(DATA, '_frag')
 
 
+def key_ex(e):
+    """一条例子的身份：样本＋成品（或第一截）＋标题。用来防止同一条被并入两次。"""
+    prod = e.get('product') or (e.get('parts') or [{}])[0].get('text', '')
+    return (e.get('sample', ''), (prod or '')[:60], (e.get('title') or '')[:40])
+
+
+def key_us(u):
+    return (u.get('sample', ''), (u.get('sentence') or '')[:60], u.get('focus', ''))
+
+
+dup = [0]
+
+
 def index(nodes, acc):
     for n in nodes:
         acc[n['id']] = n
@@ -70,18 +83,33 @@ def main():
                     exs, uss = payload, []
                 if exs:
                     node.setdefault('examples', [])
-                    node['examples'].extend(exs)
-                    added_ex += len(exs)
+                    have = {key_ex(e) for e in node['examples']}
+                    for e in exs:
+                        k = key_ex(e)
+                        if k in have:      # 同一条重复并入（碎片被并过一次又留了副本）就跳过
+                            dup[0] += 1
+                            continue
+                        have.add(k)
+                        node['examples'].append(e)
+                        added_ex += 1
                 if uss:
                     node.setdefault('usages', [])
-                    node['usages'].extend(uss)
-                    added_us += len(uss)
+                    haveu = {key_us(u) for u in node['usages']}
+                    for u in uss:
+                        k = key_us(u)
+                        if k in haveu:
+                            dup[0] += 1
+                            continue
+                        haveu.add(k)
+                        node['usages'].append(u)
+                        added_us += 1
         total_ex += added_ex
         total_us += added_us
         print(f'{target}：并入例子 {added_ex} 条、用法 {added_us} 条（碎片 {len(frags)} 个）')
         if not a.dry:
             json.dump(doc, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    print(f'\n合计并入例子 {total_ex} 条、用法 {total_us} 条')
+    print(f'\n合计并入例子 {total_ex} 条、用法 {total_us} 条'
+          + (f'；跳过重复 {dup[0]} 条' if dup[0] else ''))
     if miss:
         print(f'\n[对不上的节点 id] {len(miss)} 处：')
         for m in miss:
