@@ -1,0 +1,167 @@
+{
+  "part": "五",
+  "title": "小题",
+  "intro": "小题用的是同一套转译动作，只是更集中、删得更狠。小题还给大作文备料，所以先做小题、把答案留在手边是划算的。（理论稿这一部分是一串并列的说明，为了能引用，这里按原顺序给它们编了号，内容和顺序都没有动。）",
+  "nodes": [
+    {
+      "id": "五.1",
+      "title": "同一套转译动作，更集中",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "五.1 照抄",
+          "title": "小题里的照抄删修饰",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.1 问题",
+          "title": "小题里的问题包装或翻转",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.1 删减",
+          "title": "小题里的长列表删减和名字缩短",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "五.2",
+      "title": "和大作文不同的地方",
+      "min_examples": 5,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "五.3",
+      "title": "小题多出来的四个动作",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "五.3 起标题",
+          "title": "动作一：起小标题并判断它的来源和形式",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.3 切要点",
+          "title": "动作二：自己切分要点和编号",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.3 配对",
+          "title": "动作三：问题和对策配对",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.3 压缩",
+          "title": "动作四：压缩强度高一档",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "五.4",
+      "title": "小标题",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "五.4 做法题",
+          "title": "做法题的小标题：动宾式",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.4 问题题",
+          "title": "问题题的小标题：名词加坏词",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.4 作用题",
+          "title": "作用成效题的小标题：名词加判断、主体加作用",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "五.5",
+      "title": "另两个常见动作",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "五.5 个例",
+          "title": "个例换成类名",
+          "min_examples": 5,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "五.5 反推",
+          "title": "成绩反推动作",
+          "min_examples": 5,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "五.6",
+      "title": "对策题：把问题翻过来",
+      "min_examples": 20,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "五.7",
+      "title": "小题和大作文的关系",
+      "min_examples": 12,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    }
+  ]
+}

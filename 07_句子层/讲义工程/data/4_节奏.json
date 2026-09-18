@@ -1,0 +1,39 @@
+{
+  "part": "四",
+  "title": "节奏",
+  "intro": "节奏不在单个句子里，在顺序和长短交替里。这一部分给出十二篇量出来的数，以及为什么这么排读着舒服。",
+  "nodes": [
+    {
+      "id": "四.1",
+      "title": "原则",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "四.2",
+      "title": "量出来的数",
+      "min_examples": 4,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "四.3",
+      "title": "为什么这样读着舒服",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "四.4",
+      "title": "策论的节奏",
+      "min_examples": 1,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    }
+  ]
+}

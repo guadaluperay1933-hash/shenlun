@@ -1,0 +1,101 @@
+{
+  "part": "七",
+  "title": "整合",
+  "intro": "前面六部分是零件，这一部分讲怎么在考场上把它们合起来：交卷前查四样，哪些东西只能靠整篇计时练，平时怎么练。",
+  "nodes": [
+    {
+      "id": "七.1",
+      "title": "交卷前四查",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "七.1 第一查",
+          "title": "第一查：引号里的字和材料一字不差吗",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "七.1 第二查",
+          "title": "第二查：开头点的难后文接了吗",
+          "min_examples": 7,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "七.1 第三查",
+          "title": "第三查：广东当主语的句子谓语都是正面的吗",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "七.1 第四查",
+          "title": "第四查：每段最后一个分句往上走吗",
+          "min_examples": 3,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "七.2",
+      "title": "只能靠整篇计时练的东西",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "七.2 装四段",
+          "title": "多则材料装进四段怎么取舍和配对",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "七.3",
+      "title": "练法",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "七.3 只读评价",
+          "title": "先只读评价",
+          "min_examples": 3,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "七.3 题单",
+          "title": "分句练习的题单",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "七.4",
+      "title": "证据上的保留",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    }
+  ]
+}

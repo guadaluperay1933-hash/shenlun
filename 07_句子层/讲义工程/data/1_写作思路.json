@@ -1,0 +1,357 @@
+{
+  "part": "一",
+  "title": "写作思路",
+  "intro": "这一部分讲一篇文章的骨架怎么搭：六段各干什么活，开头怎么起，中间段的四句话各自什么样，结尾怎么收。",
+  "nodes": [
+    {
+      "id": "一.1",
+      "title": "十二篇共同的骨架",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "一.2",
+      "title": "开头",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "一.2.1",
+          "title": "开头的拍子",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.2.2",
+          "title": "开头的曲线：先高后低再高",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.2.3",
+          "title": "推法：用什么理由让广东接着做",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": [],
+          "children": [
+            {
+              "id": "一.2.3 缺口",
+              "title": "推法一：缺口",
+              "min_examples": 6,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.2.3 职责帽",
+              "title": "推法二：职责帽",
+              "min_examples": 6,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.2.3 下一场更难",
+              "title": "推法三：下一场更难（形势、考题）",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.2.3 换阶段",
+              "title": "推法四：换阶段",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.2.3 自己立的志",
+              "title": "推法五：他自己立的志",
+              "min_examples": 5,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.2.3 重要性",
+              "title": "推法六：重要性（最弱，只能叠加）",
+              "min_examples": 8,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.2.3 短板即潜力",
+              "title": "推法七：短板即潜力",
+              "min_examples": 1,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            }
+          ]
+        },
+        {
+          "id": "一.2.4",
+          "title": "点难的讲究",
+          "min_examples": 7,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.2.5",
+          "title": "开头倒着写",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "一.3",
+      "title": "中间段",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "一.3.1",
+          "title": "四句一节",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.3.2",
+          "title": "标签句：三条来路",
+          "min_examples": 48,
+          "one_line": "",
+          "plain": [],
+          "examples": [],
+          "children": [
+            {
+              "id": "一.3.2 展开",
+              "title": "捡来的标签后面那句「展开」怎么造",
+              "min_examples": 8,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            }
+          ]
+        },
+        {
+          "id": "一.3.3",
+          "title": "道理句",
+          "min_examples": 15,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.3.4",
+          "title": "长句",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": [],
+          "children": [
+            {
+              "id": "一.3.4 拆开",
+              "title": "十个长句完整拆开",
+              "min_examples": 10,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.3.4 把手",
+              "title": "丢故事、留把手",
+              "min_examples": 5,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.3.4 归档",
+              "title": "例子归到哪一段，看标签不看它原来在哪则材料",
+              "min_examples": 4,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "一.3.4 主语",
+              "title": "主语一律对齐到广东",
+              "min_examples": 6,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            }
+          ]
+        },
+        {
+          "id": "一.3.5",
+          "title": "收束句",
+          "min_examples": 48,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.3.6",
+          "title": "合并段",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "一.4",
+      "title": "结尾",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "一.4.1",
+          "title": "结尾的三拍",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.4.2",
+          "title": "结尾就是把开头再说一遍",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.4.3",
+          "title": "起头一句",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.4.4",
+          "title": "点名",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.4.5",
+          "title": "落点",
+          "min_examples": 5,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.4.6",
+          "title": "结尾的四不",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "一.5",
+      "title": "五种题干，五种说法",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "一.5 思路一",
+          "title": "思路一：做好这几件事",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.5 思路二",
+          "title": "思路二：这件事是一切的根",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.5 思路三",
+          "title": "思路三：总结经验",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.5 思路四",
+          "title": "思路四：最大的短板",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.5 思路五",
+          "title": "思路五：写给我们这一类人",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "一.5 策论",
+          "title": "策论文：思路一的变体",
+          "min_examples": 5,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "一.6",
+      "title": "标题",
+      "min_examples": 12,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "一.7",
+      "title": "搭骨架的先后依赖",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    }
+  ]
+}

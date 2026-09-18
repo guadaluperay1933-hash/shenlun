@@ -1,0 +1,371 @@
+{
+  "part": "二",
+  "title": "转译：材料句怎么变成文章句",
+  "intro": "这一部分是全讲义最要练的地方。一篇文章里有三百来字是十五六个二十字上下的分句，它们全是从材料句改出来的。这里讲怎么认句子、怎么动手、十三种材料句各怎么改。",
+  "nodes": [
+    {
+      "id": "二.0",
+      "title": "先认类，再动手",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "二.0.1",
+          "title": "四类句子是同一条链",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.0.2",
+          "title": "理解要主动开启",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.0.3",
+          "title": "材料句的内部构造：事实加评价",
+          "min_examples": 15,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "二.1",
+      "title": "基本动作：四步加一条死规矩",
+      "min_examples": 12,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "二.1 卡法一",
+          "title": "卡法一：本段没有评价",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.1 卡法二",
+          "title": "卡法二：评价说的是某个人",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.1 卡法三",
+          "title": "卡法三：接不顺",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "二.2",
+      "title": "十三种情况（按材料句的样子查）",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "二.2 第1行",
+          "title": "第一种：首句、末句、判断句、评价句",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第2行",
+          "title": "第二种：能填进固定句框的词",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第3行",
+          "title": "第三种：一段讲项目，有细节有人物",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第4行",
+          "title": "第四种：某地出台、上线、组建了某物，效果如何",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第5行",
+          "title": "第五种：通过、随着、依托、得益于某物，某某如何",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第6行",
+          "title": "第六种：长并列、长专名",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第7行",
+          "title": "第七种：权威引语",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第8行",
+          "title": "第八种：一句讲手段，一句讲效果",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第9行",
+          "title": "第九种：一串数字",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第10行",
+          "title": "第十种：问题、不足",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第11行",
+          "title": "第十一种：不相邻的两处各有半句可用",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第12行",
+          "title": "第十二种：材料讲已经做了什么",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 第13行",
+          "title": "第十三种：从甲到乙，和用例子指代一类",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": [],
+          "children": [
+            {
+              "id": "二.2 第13a行",
+              "title": "十三之一：从某某到某某、向某某转变",
+              "min_examples": 8,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 第13b行",
+              "title": "十三之二：用一个例子指代一类",
+              "min_examples": 8,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            }
+          ]
+        },
+        {
+          "id": "二.2 删修饰",
+          "title": "每种都带着做的底色：删修饰",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.2 小动作",
+          "title": "归在各行里的小动作",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": [],
+          "children": [
+            {
+              "id": "二.2 小动作 正",
+              "title": "去掉「让、推动」，加一个「正」",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 宾语",
+              "title": "宾语当主语",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 调序",
+              "title": "判断句调序",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 支点",
+              "title": "判断句改「以某某为支点、牵引、抓手」",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 同位语",
+              "title": "同位语前置",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 层级",
+              "title": "换层级词",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 动词",
+              "title": "动词升级",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "二.2 小动作 冒号",
+              "title": "总括句改成冒号带分句",
+              "min_examples": 3,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "二.3",
+      "title": "装不下的那一成去哪了",
+      "min_examples": 6,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "二.4",
+      "title": "不学的高成本写法和替代",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "二.4 比喻收束",
+          "title": "自造比喻收束",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 解释句",
+          "title": "引语后面自造解释句",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 引语改判断",
+          "title": "把引语改写成判断句",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 压短",
+          "title": "把评价压成更短的同义说法",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 三处拼一句",
+          "title": "三处材料拼成一句判断",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 使令句",
+          "title": "判断句改使令句",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 比喻标题",
+          "title": "比喻式的标题和标签",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "二.4 自选动词",
+          "title": "把例子挂到框架上并自选动词",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

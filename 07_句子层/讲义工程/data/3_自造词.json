@@ -1,0 +1,255 @@
+{
+  "part": "三",
+  "title": "自造词",
+  "intro": "一篇文章里自己写的只有八九十个字，而且九成七落在固定的七个位置上。这一部分说清楚哪七处要自己出词、每处出什么、以及只有这几组词值得背。",
+  "nodes": [
+    {
+      "id": "三.1",
+      "title": "总量和原则",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "三.2",
+      "title": "七个位置",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "三.2 位置1",
+          "title": "位置一：标题",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.2 位置2",
+          "title": "位置二：开头",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.2 位置3",
+          "title": "位置三：标签句后半句",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.2 位置4",
+          "title": "位置四：道理句",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.2 位置5",
+          "title": "位置五：长句里的连接词和转换动词",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.2 位置6",
+          "title": "位置六：收束句的句框",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.2 位置7",
+          "title": "位置七：结尾的起头句、点名、落点",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "三.3",
+      "title": "要理解才能写的地方：只问三个问题",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "三.3 问一",
+          "title": "问一：它对总目标是什么角色",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.3 问二",
+          "title": "问二：没有它会怎样",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.3 问三",
+          "title": "问三：人们常把它想窄成什么",
+          "min_examples": 6,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.3 机构",
+          "title": "另两种写法：依据式和反面式",
+          "min_examples": 4,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "三.4",
+      "title": "要积累的成套东西",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "三.4①",
+          "title": "胶水词",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": [],
+          "children": [
+            {
+              "id": "三.4① 让",
+              "title": "胶水词：让",
+              "min_examples": 10,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "三.4① 以",
+              "title": "胶水词：以",
+              "min_examples": 8,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "三.4① 把",
+              "title": "胶水词：把",
+              "min_examples": 6,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "三.4① 才能",
+              "title": "胶水词：才能",
+              "min_examples": 6,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "三.4① 才有",
+              "title": "胶水词：才有",
+              "min_examples": 6,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            },
+            {
+              "id": "三.4① 其余",
+              "title": "其余胶水词",
+              "min_examples": 15,
+              "one_line": "",
+              "plain": [],
+              "examples": []
+            }
+          ]
+        },
+        {
+          "id": "三.4②",
+          "title": "角色名词配动词",
+          "min_examples": 12,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4③",
+          "title": "标签前半句的动词",
+          "min_examples": 15,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4④",
+          "title": "策论「要」后面的转换动词",
+          "min_examples": 10,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4⑤",
+          "title": "写问题的一套",
+          "min_examples": 23,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4⑥",
+          "title": "结尾用词",
+          "min_examples": 8,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4⑦",
+          "title": "句框",
+          "min_examples": 20,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4⑧",
+          "title": "其他小件",
+          "min_examples": 5,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "三.4⑨",
+          "title": "不背的东西",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

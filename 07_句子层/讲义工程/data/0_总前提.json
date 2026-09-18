@@ -1,0 +1,123 @@
+{
+  "part": "〇",
+  "title": "总前提",
+  "intro": "这一部分说的是申论这门考试把什么锁死了、一篇文章到底是怎么攒出来的，以及全篇用到的几个叫法。后面六个部分都建立在这里，读不懂后面的时候回头看这一节。",
+  "nodes": [
+    {
+      "id": "〇.1",
+      "title": "申论把三样东西锁死了",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "〇.2",
+      "title": "逻辑被折叠到了哪里",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "〇.2 演绎",
+          "title": "演绎折进了开头",
+          "min_examples": 3,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "〇.2 归纳",
+          "title": "归纳折进了长句里并排的几个例子",
+          "min_examples": 3,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "〇.2 因果和分析",
+          "title": "因果和分析折进了分句的句尾和例子的排列顺序",
+          "min_examples": 3,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "〇.2 辩证",
+          "title": "辩证压成一句「不是……而是……」",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "〇.2 对照和假设",
+          "title": "对照和假设压成一句反面的话",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "〇.2 类比",
+          "title": "类比退化成比喻，只管语言",
+          "min_examples": 2,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        },
+        {
+          "id": "〇.2 驳论",
+          "title": "驳论和完整的正反合基本消失",
+          "min_examples": 0,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "〇.3",
+      "title": "这道题的真实性质：缩写，不是创作",
+      "min_examples": 1,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "〇.4",
+      "title": "两个关键词：名字和评价",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "〇.5",
+      "title": "这份讲义用的叫法",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": []
+    },
+    {
+      "id": "〇.6",
+      "title": "三个角色：爷爷、爸爸、儿子",
+      "min_examples": 0,
+      "one_line": "",
+      "plain": [],
+      "examples": [],
+      "children": [
+        {
+          "id": "〇.6 「要」的三个来源",
+          "title": "「要」只能来自三处，都不是你自己",
+          "min_examples": 9,
+          "one_line": "",
+          "plain": [],
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
