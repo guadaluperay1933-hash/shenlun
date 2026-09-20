@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 """一句一源：python3 onesrc.py <样本id> <正文.txt>  按。？！切句、按；：切分句，列每分句来源；⚠=跨块或同块不相邻（材料自重复要人工剔）"""
 import json,re,sys,unicodedata,os
+def load_essay(path):
+    """正文文件：.txt 整读；.md 只取「## 一、作文」到下一个「## 」之间"""
+    t=open(path,encoding='utf-8').read()
+    if path.endswith('.md'):
+        k=t.find('## 一、作文')
+        if k>=0:
+            t=t[k:].split('\n',1)[1]
+            j=t.find('\n## ')
+            t=t[:j] if j>=0 else t
+    return t
 def norm(t):
     t=unicodedata.normalize('NFKC',t); return re.sub(r'[\s“”"‘’\'《》【】（）()、，。；：！？—…·,.;:!?\-]','',t)
 sid,path=sys.argv[1],sys.argv[2]
 pool=json.load(open(os.path.join(os.path.dirname(__file__),'..','_pool',sid+'.json'),encoding='utf-8'))
 P=[(b,i+1,norm(s)) for b in pool for i,s in enumerate(pool[b])]
-txt=open(path,encoding='utf-8').read();bad=0
+txt=load_essay(path);bad=0
 for pi,para in enumerate([p for p in txt.split('\n') if p.strip()]):
     print("\n--- 段%d ---"%pi)
     for s in [x for x in re.split(r'(?<=[。？！])',para) if x.strip()]:
