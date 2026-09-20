@@ -4,8 +4,8 @@ import re,sys,json,os
 sid=sys.argv[1]
 root=os.path.join(os.path.dirname(__file__),'..','..')
 mt=open(os.path.join(root,'samples',sid,'material.txt'),encoding='utf-8').read()
-mt=mt.split('【问题一】')[0] if '【问题一】' in mt else mt
-blocks=re.split(r'【材料([一二三四五六七八九十]+)】', mt)
+mt=re.split(r'\n\s*【?问题一】?\s*\n', mt)[0]
+blocks=re.split(r'(?m)^\s*【?材料([一二三四五六七八九十]+)】?\s*$', mt)
 pool={};paraidx={}
 for i in range(1,len(blocks),2):
     name=blocks[i]; body=blocks[i+1]
