@@ -68,7 +68,8 @@ S = dict(
     sent=st('s', fontName='Hei', fontSize=10.5, leading=18, alignment=TA_JUSTIFY, spaceBefore=7, spaceAfter=1),
     note=st('n', fontName='Song', fontSize=9.5, leading=16, alignment=TA_JUSTIFY, leftIndent=16, textColor=GRAY, spaceBefore=1),
     essay=st('e', fontName='Song', fontSize=11, leading=20, alignment=TA_JUSTIFY, firstLineIndent=22, spaceAfter=5),
-    etitle=st('et', fontName='Hei', fontSize=13, leading=22, alignment=TA_CENTER, spaceAfter=10),
+    etitle=st('et', fontName='Hei', fontSize=13, leading=22, alignment=TA_CENTER, spaceAfter=4),
+    esub=st('es', fontName='Song', fontSize=11, leading=20, alignment=TA_CENTER, textColor=DARK, spaceAfter=10),
     tip=st('tip', fontName='Song', fontSize=9.5, leading=16, textColor=GRAY, spaceAfter=6),
 )
 
@@ -150,8 +151,15 @@ def essay_story(sid, num):
             if l:
                 out.append(P(l, 'body'))
     paras = [p.strip() for p in essay.group(1).strip().split('\n') if p.strip()]
-    out += [P('作文', 'h3'), Spacer(1, 4), P(paras[0], 'etitle')]
-    out += [P(p, 'essay') for p in paras[1:]]
+    head, _, sub = paras[0].partition('——')
+    out += [P('作文', 'h3'), Spacer(1, 4), P(head.strip(), 'etitle')]
+    body = paras[1:]
+    if sub:
+        body = ['——' + sub.strip()] + body
+    if body and body[0].startswith('——'):
+        out.append(P(body[0], 'esub'))
+        body = body[1:]
+    out += [P(p, 'essay') for p in body]
     out += [PageBreak(), P('大作文逐句解析', 'h3')]
     for l in (x.strip() for x in ann.group(1).split('\n')):
         if not l:
