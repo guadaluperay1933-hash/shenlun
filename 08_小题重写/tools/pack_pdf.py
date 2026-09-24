@@ -152,7 +152,7 @@ def essay_story(sid, num):
                 out.append(P(l, 'body'))
     paras = [p.strip() for p in essay.group(1).strip().split('\n') if p.strip()]
     head, _, sub = paras[0].partition('——')
-    out += [P('作文', 'h3'), Spacer(1, 4), P(head.strip(), 'etitle')]
+    out += [PageBreak(), P('作文', 'h3'), Spacer(1, 4), P(head.strip(), 'etitle')]
     body = paras[1:]
     if sub:
         body = ['——' + sub.strip()] + body
