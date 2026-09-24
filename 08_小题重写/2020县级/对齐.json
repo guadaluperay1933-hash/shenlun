@@ -1,0 +1,1069 @@
+{
+ "问题一": {
+  "n": 0,
+  "papers": [],
+  "refs": {
+   "prev": "参照_上一版/Q1.txt（2020 不在 2021–2026 内，算一票）",
+   "jigou": "机构参考答案 F、H 两版，合算一票；两版分歧处在 note 里写明"
+  },
+  "points": [
+   {
+    "pool_id": "一-p3-2a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "i 深圳 APP；机构两版都不写，上一版写；预登记第 2 条落空一半"
+   },
+   {
+    "pool_id": "一-p4-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "出台智慧城市方案"
+   },
+   {
+    "pool_id": "一-p4-2c",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "机构两版都写成信息技术，上一版没写技术"
+   },
+   {
+    "pool_id": "一-p4-2f",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "智能化专业化水平；v1 只写了智能化"
+   },
+   {
+    "pool_id": "一-p4-2g",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "建设智慧城市，当标签"
+   },
+   {
+    "pool_id": "一-p4-3b",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "共享平台 / 数据共享"
+   },
+   {
+    "pool_id": "一-p5-2a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "社会信用体系，三处都当这一面的名字；v1 用 一-p5-1a 的信用管理，近"
+   },
+   {
+    "pool_id": "一-p5-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "企业信用信息管理系统 3/3；信用网另算一点：prev、F 2/3，v1 没写、v2 补"
+   },
+   {
+    "pool_id": "一-p6-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": false,
+    "v2": true,
+    "note": "成立信用机构，3/3；v1 漏，段内此外引出的新动作"
+   },
+   {
+    "pool_id": "一-p6-1c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouF"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "构建应用体系"
+   },
+   {
+    "pool_id": "一-p6-2d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "自动拦截失信主体"
+   },
+   {
+    "pool_id": "一-p7-1i",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "党组织建成战斗堡垒；H 写成发挥党组织作用，近"
+   },
+   {
+    "pool_id": "一-p7-1k",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": true,
+    "note": "先锋模范作用；F 写党组织和党员带头，近"
+   },
+   {
+    "pool_id": "一-p7-1l",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "党员干部下沉社区"
+   },
+   {
+    "pool_id": "一-p7-1m",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "服务群众、企业"
+   },
+   {
+    "pool_id": "一-p7-1p",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "党领导的制度优势"
+   },
+   {
+    "pool_id": "一-p7-1w",
+    "kind": "pool",
+    "papers": [],
+    "refs": [],
+    "class": "个案",
+    "v1": true,
+    "v2": false,
+    "note": "机场集团带领群众群防群治，三处都不写；是 p7-1k 总括的例证"
+   },
+   {
+    "pool_id": "一-p8-1c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "分类推动"
+   },
+   {
+    "pool_id": "一-p8-1d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "编制法律指引"
+   },
+   {
+    "pool_id": "一-p8-1g",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouF"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "法律分析"
+   },
+   {
+    "pool_id": "一-p8-1h",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouF"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "执法指引"
+   },
+   {
+    "pool_id": "一-p8-1k",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "普法、咨询、援助等法律服务，三处都压成法律服务并留提供这个动词"
+   },
+   {
+    "pool_id": "一-p8-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "特区立法权"
+   },
+   {
+    "pool_id": "一-p8-2c",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "制定条例 / 立法防控风险"
+   },
+   {
+    "pool_id": "一-p8-2d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "法治保障，当标签"
+   },
+   {
+    "pool_id": "一-p9-3b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "组建志愿服务队"
+   },
+   {
+    "pool_id": "一-p9-3c",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "志愿者参与基层防控 / 参与社会治理"
+   },
+   {
+    "pool_id": "一-p10-1b",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "引导社会组织；H 单列一条，prev、F 与志愿者并一条"
+   },
+   {
+    "pool_id": "一-p10-2a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "心理健康、纠纷调处等领域；prev 写两项，F、H 不写细目"
+   },
+   {
+    "pool_id": "一-p10-2c",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "社会组织开展服务"
+   },
+   {
+    "pool_id": "一-p10-3a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "参与基层社会治理"
+   },
+   {
+    "pool_id": "一-p10-3b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "良性互动，是结果句"
+   }
+  ],
+  "v1_covers": [
+   "一-p4-2b",
+   "一-p4-2c",
+   "一-p4-2f",
+   "一-p4-2g",
+   "一-p4-3b",
+   "一-p5-2a",
+   "一-p5-2b",
+   "一-p6-1c",
+   "一-p6-2d",
+   "一-p7-1i",
+   "一-p7-1l",
+   "一-p7-1w",
+   "一-p8-1d",
+   "一-p8-1k",
+   "一-p8-2b",
+   "一-p8-2c",
+   "一-p8-2d",
+   "一-p9-3b",
+   "一-p10-1b",
+   "一-p10-2a",
+   "一-p10-2c",
+   "一-p10-3a"
+  ],
+  "v2_covers": [
+   "一-p4-2b",
+   "一-p4-2c",
+   "一-p4-2f",
+   "一-p4-2g",
+   "一-p4-3b",
+   "一-p5-2a",
+   "一-p5-2b",
+   "一-p6-1b",
+   "一-p6-1c",
+   "一-p6-2d",
+   "一-p7-1i",
+   "一-p7-1k",
+   "一-p7-1l",
+   "一-p8-1d",
+   "一-p8-1k",
+   "一-p8-2b",
+   "一-p8-2c",
+   "一-p8-2d",
+   "一-p9-3b",
+   "一-p10-1b",
+   "一-p10-2a",
+   "一-p10-2c",
+   "一-p10-3a"
+  ],
+  "notes": "本套没有真人卷，n=0。class 按上一版 + 机构两版的票数定：三处或两处一致记必答（弱共识），只有一处记可选，三处都没有而 v1 写了的记个案；refs 里 prev / jigouF / jigouH 是来源代号。结构：prev、F 5 条（志愿者和社会组织并一条），H 6 条。v1 漏的必答点是 成立信用机构（一-p6-1b）和 信用网（一-p5-2b 后半），都是漏面：段内此外引出的新动作和并列的第二个载体，为字数删了。v1 的 一-p7-1w 是例证，判噪音。"
+ },
+ "问题二": {
+  "n": 0,
+  "papers": [],
+  "refs": {
+   "prev": "参照_上一版/Q2.txt，算一票",
+   "jigou": "机构参考答案 F、H 两版，合算一票"
+  },
+  "points": [
+   {
+    "pool_id": "二-p1-2c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "经济快速复苏，三处都当第一条标签，没有一处单写总句"
+   },
+   {
+    "pool_id": "二-p1-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "1300 万户、连续 7 年第一，疫情前家底"
+   },
+   {
+    "pool_id": "二-p1-3b",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "新登记市场主体增长"
+   },
+   {
+    "pool_id": "二-p1-6c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "稳居全国第一"
+   },
+   {
+    "pool_id": "二-p1-7c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "规上工业增加值重回正增长"
+   },
+   {
+    "pool_id": "二-p1-8b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": false,
+    "v2": true,
+    "note": "用电负荷增长，3/3；v1 为字数删了指标名"
+   },
+   {
+    "pool_id": "二-p1-8c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "高技术制造业增加值增长"
+   },
+   {
+    "pool_id": "二-p1-8d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "进出口增速转正，与 二-p5-3c 同一点；三处都放第一条，v1、v2 放外贸条"
+   },
+   {
+    "pool_id": "二-p1-10b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "第一次完全线上广交会；H 只写外贸订单增加"
+   },
+   {
+    "pool_id": "二-p1-11c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [],
+    "class": "个案",
+    "v1": true,
+    "v2": false,
+    "note": "不降门槛、维持规模，三处都不写"
+   },
+   {
+    "pool_id": "二-p1-11d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "稳订单、拓市场；H 写订单增加，近"
+   },
+   {
+    "pool_id": "二-p2-1a",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "个案",
+    "v1": false,
+    "v2": false,
+    "note": "丽美订单，只有 H 以订单增加带到"
+   },
+   {
+    "pool_id": "二-p5-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "外贸回稳，当标签"
+   },
+   {
+    "pool_id": "二-p5-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": true,
+    "note": "降幅收窄"
+   },
+   {
+    "pool_id": "二-p5-3c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "由负转正"
+   },
+   {
+    "pool_id": "二-p6-1f",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": false,
+    "note": "有信心稳住基本盘，预期不是成效，不跟"
+   },
+   {
+    "pool_id": "三-p2-4b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "专车专列接务工人员返岗"
+   },
+   {
+    "pool_id": "三-p2-5b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "复工专机，企业自己启动的"
+   },
+   {
+    "pool_id": "三-p2-5d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "加速产能恢复；F 写推动复工复产，近"
+   },
+   {
+    "pool_id": "三-p3-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "网络招聘会"
+   },
+   {
+    "pool_id": "三-p3-2a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "满足企业需求"
+   },
+   {
+    "pool_id": "三-p3-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "促进重点群体就业"
+   },
+   {
+    "pool_id": "三-p4-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouH"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": false,
+    "note": "资金周转困难"
+   },
+   {
+    "pool_id": "三-p4-1c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "阶段性减免社保费"
+   },
+   {
+    "pool_id": "三-p4-2c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": false,
+    "v2": true,
+    "note": "免征期限延长，3/3；v1 漏，段内不仅如此引出的新动作"
+   },
+   {
+    "pool_id": "三-p4-2d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "减轻企业负担，当标签"
+   },
+   {
+    "pool_id": "三-p4-3a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "返还失业保险费"
+   },
+   {
+    "pool_id": "三-p4-4c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "延迟复工补助"
+   },
+   {
+    "pool_id": "三-p5-1a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "商事登记秒批"
+   },
+   {
+    "pool_id": "三-p5-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "智能审批系统"
+   },
+   {
+    "pool_id": "三-p5-1e",
+    "kind": "near",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "缩短办理时间；prev 写 15 分钟，H 写提高效率，近"
+   },
+   {
+    "pool_id": "三-p5-2a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouF"
+    ],
+    "class": "可选",
+    "v1": false,
+    "v2": true,
+    "note": "推进商事服务改革"
+   },
+   {
+    "pool_id": "三-p5-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF"
+    ],
+    "class": "必答",
+    "v1": false,
+    "v2": false,
+    "note": "秒批范围将扩大，2/3 写成已扩大；材料是将来时，不跟，把握中偏低"
+   },
+   {
+    "pool_id": "三-p6-1f",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev"
+    ],
+    "class": "个案",
+    "v1": false,
+    "v2": false,
+    "note": "小朱 15 分钟，个案数字"
+   },
+   {
+    "pool_id": "三-p7-1b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "知识产权保护工作站"
+   },
+   {
+    "pool_id": "三-p7-2d",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "jigouF"
+    ],
+    "class": "可选",
+    "v1": true,
+    "v2": true,
+    "note": "维权援助和指导服务"
+   },
+   {
+    "pool_id": "三-p8-1c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "推动企业创新；prev 写创新活力增强，近"
+   },
+   {
+    "pool_id": "三-p8-2a",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": true,
+    "v2": true,
+    "note": "培育高价值专利"
+   },
+   {
+    "pool_id": "三-p8-2b",
+    "kind": "pool",
+    "papers": [],
+    "refs": [
+     "prev",
+     "jigouF",
+     "jigouH"
+    ],
+    "class": "必答",
+    "v1": false,
+    "v2": true,
+    "note": "知识产权创造量质齐升，3/3；v1 写成申请量授权量增长"
+   },
+   {
+    "pool_id": "三-p8-3c",
+    "kind": "pool",
+    "papers": [],
+    "refs": [],
+    "class": "个案",
+    "v1": true,
+    "v2": false,
+    "note": "专利申请量增长的数字段，三处都不写"
+   }
+  ],
+  "v1_covers": [
+   "二-p1-2c",
+   "二-p1-3b",
+   "二-p1-6c",
+   "二-p1-7c",
+   "二-p1-8c",
+   "二-p1-8d",
+   "二-p1-10b",
+   "二-p1-11c",
+   "二-p1-11d",
+   "二-p5-1b",
+   "二-p5-3c",
+   "三-p2-4b",
+   "三-p2-5b",
+   "三-p2-5d",
+   "三-p3-1b",
+   "三-p3-2a",
+   "三-p3-2b",
+   "三-p4-1b",
+   "三-p4-1c",
+   "三-p4-2d",
+   "三-p4-3a",
+   "三-p4-4c",
+   "三-p5-1a",
+   "三-p5-1b",
+   "三-p5-1e",
+   "三-p7-1b",
+   "三-p7-2d",
+   "三-p8-1c",
+   "三-p8-2a",
+   "三-p8-3c"
+  ],
+  "v2_covers": [
+   "二-p1-2c",
+   "二-p1-3b",
+   "二-p1-6c",
+   "二-p1-7c",
+   "二-p1-8b",
+   "二-p1-8c",
+   "二-p1-8d",
+   "二-p1-10b",
+   "二-p1-11d",
+   "二-p5-1b",
+   "二-p5-2b",
+   "二-p5-3c",
+   "三-p2-4b",
+   "三-p2-5b",
+   "三-p2-5d",
+   "三-p3-1b",
+   "三-p3-2a",
+   "三-p3-2b",
+   "三-p4-1c",
+   "三-p4-2c",
+   "三-p4-2d",
+   "三-p4-3a",
+   "三-p4-4c",
+   "三-p5-1a",
+   "三-p5-1b",
+   "三-p5-1e",
+   "三-p5-2a",
+   "三-p7-1b",
+   "三-p7-2d",
+   "三-p8-1c",
+   "三-p8-2a",
+   "三-p8-2b"
+  ],
+  "notes": "本套没有真人卷，n=0，票数口径同问题一。结构：三处都是 6 条、面完全一致（复苏 / 外贸 / 用工复工 / 减负 / 商事登记 / 知识产权），都不单写总句。v1 漏的必答点：用电负荷（一句里并列的第三个指标名，判漏面）、免征期延长（不仅如此引出的新动作，判漏面）、量质齐升（写了数字没写定性词，判词句）；三-p5-2b 范围扩大 2/3 写了，但材料是将来时，v2 不跟。v1 的 二-p1-11c 维持规模、三-p8-3c 数字段判噪音。数字：F、H 一个都不留，prev 留 1300 万、29 万家、15 分钟、6 月；预登记第 1 条落空一半。"
+ }
+}
